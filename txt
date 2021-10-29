@@ -1,0 +1,6 @@
+The scalability of the arrays and their proccessing time was quite interesting.
+ the appending time of the smaller arrays was quite similar, but the insert times
+ almost doubled eachother in the beginning, and everything sort of exponentially 
+ grew, until you got into the whole seconds for the extraLargeArray, when it came 
+ to insertion time. I think the big one was so slow due to the fact that you had to 
+ unshift every single number in the array every iteration. 
